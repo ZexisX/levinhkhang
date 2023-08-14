@@ -21,7 +21,7 @@ export const siteConfig: Site.Config = {
   since: 2022,
   cover: SiteCover,
   author: {
-    name: 'John Doe',
+    name: 'Aurius',
     status: '🚀',
     statusTip:
       '<a href="https://github.com/levinhkhangzz/levinhkhang" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Aurius</a> is Awesome !',
