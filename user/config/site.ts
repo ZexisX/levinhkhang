@@ -9,13 +9,13 @@ import Avatar_96_PNG from '$assets/avatar.png?w=96&h=96&imagetools';
 import Avatar_192_PNG from '$assets/avatar.png?w=192&h=192&imagetools';
 import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 
-import SiteCover from '$assets/qwer.webp';
+import SiteCover from '$assets/avatar.png';
 
 export const siteConfig: Site.Config = {
-  url: 'https://svelte-qwer.vercel.app',
-  title: 'QWER',
-  subtitle: '🚀 QWER - Built using Svelte with ❤',
-  description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
+  url: 'https://levinhkhang.vercel.app',
+  title: 'Aurius',
+  subtitle: '🚀 Aurius - Built using Svelte with ❤',
+  description: '🚀 Aurius - Awesome Blog Starter, Built using Svelte with ❤',
   lang: 'en',
   timeZone: 'Asia/Taipei',
   since: 2022,
@@ -24,23 +24,23 @@ export const siteConfig: Site.Config = {
     name: 'John Doe',
     status: '🚀',
     statusTip:
-      '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
+      '<a href="https://github.com/levinhkhangzz/levinhkhang" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Aurius</a> is Awesome !',
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://github.com/kwchang0831/svelte-QWER',
-    github: 'https://github.com/kwchang0831',
-    email: 'contact@kwchang0831.dev',
+    website: 'https://github.com/levinhkhangzz/levinhkhang',
+    github: 'https://github.com/levinhkhangzz',
+    email: 'levinhkhang631@gmail.com',
     bio: `Peace begins <br/> With a smile`,
   },
 };
 
 export const headConfig: Site.Head = {
   // Used for IndieWeb
-  me: ['https://github.com/kwchang0831'],
+  me: ['https://github.com/levinhkhangzz'],
   custom: ({ dev }) =>
     dev
       ? [
@@ -52,8 +52,8 @@ export const headConfig: Site.Head = {
           // Replace the following with your own setting
 
           // Plausible
-          '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
-          '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
+          '<link rel="preconnect" href="https://levinhkhang.dev" />',
+          '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://levinhkhang.dev/js/plausible.js"></script>',
           // Google tag (gtag.js)
           `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
           `<script type="text/partytown">
@@ -111,16 +111,6 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     name: 'About',
     url: '/about',
   },
-  {
-    name: 'See Docs 📄',
-    url: 'https://docs-svelte-qwer.vercel.app/',
-    rel: 'external',
-  },
-  {
-    name: 'Get QWER 🚀',
-    url: 'https://github.com/kwchang0831/svelte-QWER',
-    rel: 'external',
-  },
 ];
 
 export const mobilenavConfig: DD.Nav = {
@@ -129,16 +119,6 @@ export const mobilenavConfig: DD.Nav = {
     {
       name: 'About',
       url: '/about',
-    },
-    {
-      name: 'See Docs 📄',
-      url: 'https://docs-svelte-qwer.vercel.app/',
-      rel: 'external',
-    },
-    {
-      name: 'Get QWER 🚀',
-      url: 'https://github.com/kwchang0831/svelte-QWER',
-      rel: 'external',
     },
   ],
 };
